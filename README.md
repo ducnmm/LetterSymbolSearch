@@ -4,6 +4,8 @@
 
 Letter/Symbol Search is a fun and engaging game where players test their observational skills by finding specific letters or symbols among a grid of randomly generated characters. The game challenges players to identify all occurrences of a target character within a given level, progressively increasing in difficulty as they advance through higher levels.
 
+**--> You can play at link:** [https://lettersymbolsearch.vercel.app](https://lettersymbolsearch.vercel.app)
+
 ## Features
 
 - **Two Modes of Play:** Players can choose to search for letters or symbols.
@@ -41,7 +43,14 @@ Letter/Symbol Search is a fun and engaging game where players test their observa
 
 ## Screenshot
 
-(Include a screenshot of your game here)
+- Level 1
+  <img width="1440" alt="Screenshot 2024-07-15 at 17 01 24" src="https://github.com/user-attachments/assets/43f14766-264f-4ecd-8d6d-c5779c705647">
+- Level 5
+  <img width="1440" alt="Screenshot 2024-07-15 at 17 02 12" src="https://github.com/user-attachments/assets/58b5f741-18bc-4053-b87a-1124aaecba3c">
+- Level 11
+  <img width="1440" alt="Screenshot 2024-07-15 at 17 02 32" src="https://github.com/user-attachments/assets/0cbbfa68-689f-456d-bfb9-8da68d3e20fc">
+- Level 13
+  <img width="1440" alt="Screenshot 2024-07-15 at 17 03 20" src="https://github.com/user-attachments/assets/0402896b-1547-4e54-8e41-9bc00d3c0626">
 
 ## Setup
 
