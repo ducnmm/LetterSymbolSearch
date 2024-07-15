@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Letter/Symbol Search Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Letter/Symbol Search is a fun and engaging game where players test their observational skills by finding specific letters or symbols among a grid of randomly generated characters. The game challenges players to identify all occurrences of a target character within a given level, progressively increasing in difficulty as they advance through higher levels.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Two Modes of Play:** Players can choose to search for letters or symbols.
+- **Randomly Generated Grid:** Each level presents a grid of characters randomly generated to include a mix of target and non-target characters.
+- **Progressive Difficulty:** As players advance through levels, the number of characters and the complexity of the search increases.
+- **Visual Feedback:** Correct selections are highlighted in green, while incorrect selections are marked in red.
+- **Interactive Levels:** Players can navigate through different levels and retry levels as needed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to Play
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Choose a Mode:** Select either letters or symbols as your search target.
+2. **Find the Target:** A specific letter or symbol will be displayed as the target. Click on all occurrences of this target in the grid.
+3. **Feedback on Selections:** 
+   - Correct selections will be highlighted in green.
+   - Incorrect selections will be marked in red.
+4. **Advance to Next Level:** Once all target characters are found, click on the "Next Level" button to proceed.
+5. **Level Navigation:** Players can also manually select levels using the level selection buttons.
 
-### `npm test`
+## Levels and Difficulty
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Levels 1-5:** Search for letters only. The number of characters in the grid increases with each level.
+- **Levels 6-10:** Search for symbols only. The grid becomes more complex and dense.
+- **Levels 11-13:** A mix of letters and symbols, with the grid becoming increasingly challenging.
 
-### `npm run build`
+## Game Mechanics
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Grid Generation:** Each level generates a grid with a specific number of characters, increasing with the level.
+- **Target Character Selection:** A target character is randomly selected from the set of letters or symbols.
+- **User Interaction:** Players click on characters in the grid to mark them as found.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technical Details
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Frontend:** Built with React, leveraging Bootstrap for styling.
+- **State Management:** Utilizes React's useState and useEffect hooks for managing game state and level progression.
 
-### `npm run eject`
+## Screenshot
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+(Include a screenshot of your game here)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/MauDucKG/LetterSymbolSearch.git
+   ```
+2. **Install dependencies:**
+   ```sh
+   cd LetterSymbolSearch
+   npm install
+   ```
+3. **Start the application:**
+   ```sh
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy playing the Letter/Symbol Search Game and challenge yourself to reach the highest level!
