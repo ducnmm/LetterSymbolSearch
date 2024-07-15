@@ -1,0 +1,12 @@
+/* src/components/Letter.css */
+.letter-button {
+    min-width: 75px;
+    max-width: 75px;
+    min-height: 75px;
+    max-height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 0;
+  }
